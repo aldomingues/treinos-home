@@ -1,8 +1,4 @@
-const url = process.env.APP_URL
-
 export const environment = {
-    url,
-    apiUrl: `${url}/api/`,
+    crudUrl: "https://treinos-do-aldre.vercel.app/crud"
 
-    enable_dev_options: false
 }

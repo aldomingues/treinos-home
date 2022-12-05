@@ -9,13 +9,14 @@ import { TbPokeball } from "react-icons/tb";
 import { RiCharacterRecognitionFill } from "react-icons/ri"
 import Header from '@components/layout/header'
 import Version from '@components/layout/version'
+import { environment } from '@environment'
 
 const Itens: NextPage = () => {
   const menuData: MenuItemProps[] = [
     {
       label: "Crud",
       icon: <GiDatabase />,
-      route: "https://treinos-do-aldre.vercel.app/crud"
+      route: environment.crudUrl
     },
     {
       label: "Cassino",
