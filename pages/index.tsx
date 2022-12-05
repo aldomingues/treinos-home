@@ -15,7 +15,7 @@ const Itens: NextPage = () => {
     {
       label: "Crud",
       icon: <GiDatabase />,
-      route: "crud"
+      route: "https://treinos-do-aldre.vercel.app/crud"
     },
     {
       label: "Cassino",
