@@ -38,13 +38,18 @@ export const StyledMenu = styled.section.attrs(props => ({
         overflow: hidden;
         position: relative;
 
-        svg {
-            // margin-left: 10px;
-            width: 10%;
+        svg:first-child {
+            position: absolute;
+            left: 20px;
+        }
+
+        svg:last-child {
+            position: absolute;
+            right: 20px;
         }
 
         span {
-            width: 90%;
+            width: 100%;
         }
 
         &:nth-child(5n+1) {

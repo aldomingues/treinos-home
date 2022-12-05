@@ -1,6 +1,6 @@
 {
-  "name": "treinos-do-aldre",
-  "version": "0.1.23",
+  "name": "treinos-do-aldre-home",
+  "version": "0.1.24",
   "private": true,
   "scripts": {
     "dev": "next dev",

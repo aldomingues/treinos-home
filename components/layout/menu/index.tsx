@@ -17,6 +17,7 @@ const Menu = (props: { data: MenuItemProps[] }) => {
               <>
                 {menuItem.icon || <GiHammerNails/>}
                 <span>{menuItem.label}</span>
+                {menuItem.icon || <GiHammerNails/>}
               </>
             </div>
           ))}
